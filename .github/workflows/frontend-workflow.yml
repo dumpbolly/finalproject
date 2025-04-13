@@ -1,17 +1,7 @@
 # Workflow name
 name: frontened workplace
 
-# Triggers for the workflow
-on:
-  # Manual trigger using the workflow_dispatch event
-  workflow_dispatch:
-
-  # Automatic trigger on push events to the main branch
-  push:
-  
-  # Automatic trigger on pull request events targeting the main branch
-  pull_request:
-  
+on: [workflow_dispatch,push.pull_request]
  
 
 # Jobs defined in the workflow

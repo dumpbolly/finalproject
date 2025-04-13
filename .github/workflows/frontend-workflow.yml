@@ -1,7 +1,10 @@
 # Workflow name
 name: frontened workplace
 
-on: [workflow_dispatch,push,pull_request]
+on: 
+  workflow_dispatch:
+  push:
+  pull_request:
  
 
 # Jobs defined in the workflow
